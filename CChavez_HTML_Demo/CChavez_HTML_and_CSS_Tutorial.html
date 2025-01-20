@@ -1,0 +1,75 @@
+<!-- 
+ Programed by: Colby Chavez
+ Contact: cchavez572@cnm.edu
+ Date 1/16/2025
+ Goal: Complete the HTML and CSS Tutorial https://robgarnerblog.wordpress.com/2024/12/16/html-and-css-tutorial/
+--> 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Demo</title>
+        <link rel="stylesheet" type="text/css" 
+        href="styles/style.css"/>
+        
+        <style type ="text/css">
+            section{
+                font-family: 'Bodoni MT';
+                border-bottom: 2px;
+                border-bottom-style: solid;
+                border-bottom-color: darkblue;
+            }
+            ul{
+                text-indent: 5px;
+                list-style-position: inside;
+            }
+            ol{
+                text-indent: 5px;
+                list-style-position: inside;
+            }
+            a{
+                color: yellow;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            Header
+        </header>
+    
+        <nav>
+            <ol>
+                <li>Navigation Item 1</li>
+                <li>Navigation Item 2</li>
+                <li>Navigation Item 3</li>
+            </ol>
+        </nav>
+        <div id="mainContent">
+            <aside>
+                <h2 style="font-size: 12px">Coinage!</h2>
+                <br/>
+                <img alt="Picture of United States of America coin worth 25 cents. The focus of the image is on the words 'In God We Trust' embossed onto the coin." src="images/Coin.jpg" height="150" width="200"/> 
+            </aside>
+            <section>
+                <p>
+                    Section 1
+                </p>
+            </section>
+            <section>
+                Section 2
+                <article>
+                    Article 1
+                </article>
+                <article class="emphasis">
+                    Article 2
+                </article>
+                <article>
+                    Article 3
+                </article>
+            </section>
+        </div>
+        <footer>
+            Footer: <a href="http:\\www.cnm.edu">Central New Mexico Community College</a>
+        </footer>
+    </body>
+</html>
